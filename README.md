@@ -11,3 +11,6 @@
 ![2_2021](https://github.com/user-attachments/assets/537aecb0-efac-4fab-a8bd-721c15b1c369)
 ![3_2021](https://github.com/user-attachments/assets/62e9b9e5-95f2-40a1-969e-1d67546af3ee)
 ![4_2021](https://github.com/user-attachments/assets/0af8bd4a-7cca-4e99-a992-e5fcc5d26698)
+![solusi_1a](https://github.com/user-attachments/assets/d0b8e1b7-72ec-4183-8864-bde97b247621)
+
+
