@@ -13,3 +13,5 @@
 ![4_2021](https://github.com/user-attachments/assets/0af8bd4a-7cca-4e99-a992-e5fcc5d26698)
 ![solusi_1a](https://github.com/user-attachments/assets/d0b8e1b7-72ec-4183-8864-bde97b247621)
 ![solusi_2b](https://github.com/user-attachments/assets/1f761f36-7428-4b52-b2b1-fb05ed448bec)
+![solusi_3_2021](https://github.com/user-attachments/assets/767aa9b5-dc1a-4c39-9d92-f55386fea75a)
+![solusi_4_2021](https://github.com/user-attachments/assets/be46ffd7-1884-4c67-9ee4-19fc32eb78a1)
