@@ -15,3 +15,7 @@
 ![solusi_2b](https://github.com/user-attachments/assets/1f761f36-7428-4b52-b2b1-fb05ed448bec)
 ![solusi_3_2021](https://github.com/user-attachments/assets/767aa9b5-dc1a-4c39-9d92-f55386fea75a)
 ![solusi_4_2021](https://github.com/user-attachments/assets/be46ffd7-1884-4c67-9ee4-19fc32eb78a1)
+
+# Omah Lawas
+![Logo Lawasan Joglo](https://github.com/user-attachments/assets/0a73dd70-e2dc-4f0e-831b-5124a7247124)
+
