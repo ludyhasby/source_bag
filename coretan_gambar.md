@@ -19,5 +19,4 @@
 # Omah Lawas
 ![Logo Lawasan Joglo](https://github.com/user-attachments/assets/0a73dd70-e2dc-4f0e-831b-5124a7247124)
 ![joglo1](https://github.com/user-attachments/assets/1e4d7ca3-9290-408c-8225-bdb81090fcde)
-
-
+![joglo_bg](https://github.com/user-attachments/assets/06c5ec8b-82f2-47a3-9af8-c575b6a0bdbd)
