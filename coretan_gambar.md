@@ -15,3 +15,15 @@
 ![solusi_2b](https://github.com/user-attachments/assets/1f761f36-7428-4b52-b2b1-fb05ed448bec)
 ![solusi_3_2021](https://github.com/user-attachments/assets/767aa9b5-dc1a-4c39-9d92-f55386fea75a)
 ![solusi_4_2021](https://github.com/user-attachments/assets/be46ffd7-1884-4c67-9ee4-19fc32eb78a1)
+
+# Omah Lawas
+![Logo Lawasan Joglo](https://github.com/user-attachments/assets/0a73dd70-e2dc-4f0e-831b-5124a7247124)
+![joglo1](https://github.com/user-attachments/assets/1e4d7ca3-9290-408c-8225-bdb81090fcde)
+![joglo_bg](https://github.com/user-attachments/assets/06c5ec8b-82f2-47a3-9af8-c575b6a0bdbd)
+![joglo](https://github.com/user-attachments/assets/a1490962-1b50-455b-8e01-b4605de2f9f2)
+![limasan1](https://github.com/user-attachments/assets/80e427ef-c69a-44fc-80c9-0bd03746ce35)
+![lisplang](https://github.com/user-attachments/assets/0de365f7-4bdc-4abd-b780-3cc7ba777215)
+![kandang_kebo](https://github.com/user-attachments/assets/bcfa98b7-5f78-46ec-957a-6965046c2f3c)
+![meja_cafe](https://github.com/user-attachments/assets/ed727914-3594-4873-b57a-401f4cff39ed)
+![gapura](https://github.com/user-attachments/assets/0495caad-41bf-4b3a-86a4-a239ea6ae26a)
+![lisplang](https://github.com/user-attachments/assets/f62eaead-f4fd-40a4-9130-aa35cb751574)
