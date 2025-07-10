@@ -27,3 +27,4 @@
 ![meja_cafe](https://github.com/user-attachments/assets/ed727914-3594-4873-b57a-401f4cff39ed)
 ![gapura](https://github.com/user-attachments/assets/0495caad-41bf-4b3a-86a4-a239ea6ae26a)
 ![lisplang](https://github.com/user-attachments/assets/f62eaead-f4fd-40a4-9130-aa35cb751574)
+<img width="557" height="448" alt="icon-full" src="https://github.com/user-attachments/assets/d368df8b-d7c2-4988-808f-f689be2b0f00" />
