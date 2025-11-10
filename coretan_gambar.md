@@ -1,4 +1,4 @@
-# load gambar sementara
+<img width="242" height="242" alt="group2" src="https://github.com/user-attachments/assets/25c9350d-add7-4c83-9d52-4e81792be08b" /># load gambar sementara
 ![cuaca_hosea](https://github.com/user-attachments/assets/f8e5623a-91d1-4c16-900e-324ba9289eb9)
 
 ![skewness](https://github.com/user-attachments/assets/01b687be-67c6-4b25-8e02-41092ea43e6d)
@@ -36,3 +36,7 @@
 
 # background
 <img width="447" height="559" alt="ia2" src="https://github.com/user-attachments/assets/ccbff5ff-dc63-4c57-a9a8-c6668ce01d8b" />
+# LacaKas 
+<img width="242" height="242" alt="LogoLacakas" src="https://github.com/user-attachments/assets/7b52c9bf-b44f-4dd9-bfb5-8db5837c6a8a" />
+<img width="1080" height="1080" alt="ChatBotIcon" src="https://github.com/user-attachments/assets/b151904c-dd3e-4b1c-81e4-9d0e9465c855" />
+<img width="437" height="413" alt="Berkumpul" src="https://github.com/user-attachments/assets/e62784b4-8049-4c6b-b5be-2606ddedd821" />
