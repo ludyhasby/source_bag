@@ -1,4 +1,4 @@
-# load gambar sementara
+<img width="242" height="242" alt="group2" src="https://github.com/user-attachments/assets/25c9350d-add7-4c83-9d52-4e81792be08b" /># load gambar sementara
 ![cuaca_hosea](https://github.com/user-attachments/assets/f8e5623a-91d1-4c16-900e-324ba9289eb9)
 
 ![skewness](https://github.com/user-attachments/assets/01b687be-67c6-4b25-8e02-41092ea43e6d)
@@ -27,3 +27,16 @@
 ![meja_cafe](https://github.com/user-attachments/assets/ed727914-3594-4873-b57a-401f4cff39ed)
 ![gapura](https://github.com/user-attachments/assets/0495caad-41bf-4b3a-86a4-a239ea6ae26a)
 ![lisplang](https://github.com/user-attachments/assets/f62eaead-f4fd-40a4-9130-aa35cb751574)
+<img width="328" height="309" alt="icon" src="https://github.com/user-attachments/assets/15349020-096c-4c47-8022-749a6b0593c1" />
+
+# Fine Tune LLM
+<img width="557" height="448" alt="icon-full" src="https://github.com/user-attachments/assets/d368df8b-d7c2-4988-808f-f689be2b0f00" />
+<img width="1294" height="822" alt="benchmark" src="https://github.com/user-attachments/assets/54dcd733-1eb7-4f54-a2d4-c4917e9e749f" />
+<img width="1892" height="654" alt="interface" src="https://github.com/user-attachments/assets/32e8c8a1-8871-4560-985c-6dfb20892e0b" />
+
+# background
+<img width="447" height="559" alt="ia2" src="https://github.com/user-attachments/assets/ccbff5ff-dc63-4c57-a9a8-c6668ce01d8b" />
+# LacaKas 
+<img width="242" height="242" alt="LogoLacakas" src="https://github.com/user-attachments/assets/7b52c9bf-b44f-4dd9-bfb5-8db5837c6a8a" />
+<img width="1080" height="1080" alt="ChatBotIcon" src="https://github.com/user-attachments/assets/b151904c-dd3e-4b1c-81e4-9d0e9465c855" />
+<img width="437" height="413" alt="Berkumpul" src="https://github.com/user-attachments/assets/e62784b4-8049-4c6b-b5be-2606ddedd821" />
