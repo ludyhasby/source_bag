@@ -1,0 +1,249 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.17.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "XPmd",
+      "code_hash": "38b58a45863a46fa4dcb6ae009a2df9e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "==============================\n\ud83d\udda5\ufe0f  SYSTEM SPECIFICATIONS\n==============================\nOS           : Windows 10\nProcessor    : Intel64 Family 6 Model 154 Stepping 3, GenuineIntel\nPython Ver   : 3.9.20\nPandas Ver   : 1.5.3\nNumpy Ver    : 1.26.4\n==============================\n\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "mEUD",
+      "code_hash": "4196878c8eb4c6634c11f1ff45e57b41",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"pengujian-pendekatan-a-dan-b\">Pengujian Pendekatan A dan B</h1>\n<ul>\n<li>Data Engineering </li>\n<li>Ludy Hasby Aulia : 2702409305</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xmzg",
+      "code_hash": "d6181cddb1990b26b95e57f1030b4dd0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"load-library\">Load Library</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "JDNN",
+      "code_hash": "a1b59e58f5d664273b01018b1aa64fa3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "JzFu",
+      "code_hash": "5fda9ab6bdc922a0894db59cbf52ed68",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"file-creation\">File Creation</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YZNF",
+      "code_hash": "d7facc6f68ecb986042c898a774cc0af",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ampA",
+      "code_hash": "cf09f397d9ccee4ac114abf2e679fb9a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zMxr",
+      "code_hash": "6a5f44bddbb897b63ef46207d22934a8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"perbandingan-pendekatan\">Perbandingan Pendekatan</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "upDe",
+      "code_hash": "1dc265ab570242f94d5970321297bc75",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "KYhY",
+      "code_hash": "1ace1c8292f5508ea2400c2e521a1833",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"pendekatan-a\">Pendekatan A</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "IrGL",
+      "code_hash": "9d7fd016c367a834b770a0298bb2ae4e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iUKg",
+      "code_hash": "40677b79e41234bf189e5fe693cfcb8e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"head_result\": \"text/html:<marimo-ui-element object-id='iUKg-0' random-id='c0169255-947a-c9f3-124a-152e21327763'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;col_1&#92;&quot;:0.4813609208,&#92;&quot;col_2&#92;&quot;:-1.1267531343,&#92;&quot;col_3&#92;&quot;:0.7125754883,&#92;&quot;col_4&#92;&quot;:-0.4632200796,&#92;&quot;col_5&#92;&quot;:-1.8312298502},{&#92;&quot;col_1&#92;&quot;:-0.5851069868,&#92;&quot;col_2&#92;&quot;:1.0715927158,&#92;&quot;col_3&#92;&quot;:-1.7099952954,&#92;&quot;col_4&#92;&quot;:2.3998844371,&#92;&quot;col_5&#92;&quot;:0.4753460944},{&#92;&quot;col_1&#92;&quot;:0.0056495083,&#92;&quot;col_2&#92;&quot;:1.1024385944,&#92;&quot;col_3&#92;&quot;:0.746120159,&#92;&quot;col_4&#92;&quot;:0.4463608399,&#92;&quot;col_5&#92;&quot;:-1.2347003584},{&#92;&quot;col_1&#92;&quot;:-0.8666581941,&#92;&quot;col_2&#92;&quot;:0.3948878776,&#92;&quot;col_3&#92;&quot;:0.1967988949,&#92;&quot;col_4&#92;&quot;:1.2520323982,&#92;&quot;col_5&#92;&quot;:0.8041456446},{&#92;&quot;col_1&#92;&quot;:0.5599950606,&#92;&quot;col_2&#92;&quot;:1.0750819672,&#92;&quot;col_3&#92;&quot;:-0.2063227219,&#92;&quot;col_4&#92;&quot;:-0.7930120805,&#92;&quot;col_5&#92;&quot;:-0.637905551}]&quot;' data-total-rows='5' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;col_1&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_2&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_3&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_4&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_5&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"time_seconds\": \"text/plain+float:0.1964261531829834\", \"peak_memory_mb\": \"text/plain+float:7.673096656799316\"}"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "-- Pengujian Pendekatan A --\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Waktu Eksekusi : 0.1964 detik\nPeak Memory    : 7.67 MB\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "yrAZ",
+      "code_hash": "eafe775980a5ee00cd7dbb4ef6ec5344",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"pendekatan-b\">Pendekatan B</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "atBl",
+      "code_hash": "ba6d51ea24b5b3963c1370f89e1db5c6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "mgzJ",
+      "code_hash": "683d746212c706c6bc5a8d3b2441bd91",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"head_result\": \"text/html:<marimo-ui-element object-id='mgzJ-0' random-id='7314b478-5188-56e5-beb5-5be21aa8ccec'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;col_1&#92;&quot;:0.4813609208,&#92;&quot;col_2&#92;&quot;:-1.1267531343,&#92;&quot;col_3&#92;&quot;:0.7125754883,&#92;&quot;col_4&#92;&quot;:-0.4632200796,&#92;&quot;col_5&#92;&quot;:-1.8312298502},{&#92;&quot;col_1&#92;&quot;:-0.5851069868,&#92;&quot;col_2&#92;&quot;:1.0715927158,&#92;&quot;col_3&#92;&quot;:-1.7099952954,&#92;&quot;col_4&#92;&quot;:2.3998844371,&#92;&quot;col_5&#92;&quot;:0.4753460944},{&#92;&quot;col_1&#92;&quot;:0.0056495083,&#92;&quot;col_2&#92;&quot;:1.1024385944,&#92;&quot;col_3&#92;&quot;:0.746120159,&#92;&quot;col_4&#92;&quot;:0.4463608399,&#92;&quot;col_5&#92;&quot;:-1.2347003584},{&#92;&quot;col_1&#92;&quot;:-0.8666581941,&#92;&quot;col_2&#92;&quot;:0.3948878776,&#92;&quot;col_3&#92;&quot;:0.1967988949,&#92;&quot;col_4&#92;&quot;:1.2520323982,&#92;&quot;col_5&#92;&quot;:0.8041456446},{&#92;&quot;col_1&#92;&quot;:0.5599950606,&#92;&quot;col_2&#92;&quot;:1.0750819672,&#92;&quot;col_3&#92;&quot;:-0.2063227219,&#92;&quot;col_4&#92;&quot;:-0.7930120805,&#92;&quot;col_5&#92;&quot;:-0.637905551}]&quot;' data-total-rows='5' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;col_1&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_2&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_3&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_4&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;col_5&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"time_seconds\": \"text/plain+float:0.1312410831451416\", \"peak_memory_mb\": \"text/plain+float:1.2796287536621094\"}"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "-- Pengujian Pendekatan B --\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Waktu Eksekusi : 0.1312 detik\nPeak Memory    : 1.28 MB\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}

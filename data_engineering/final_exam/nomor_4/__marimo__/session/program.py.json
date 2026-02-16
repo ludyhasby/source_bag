@@ -1,0 +1,431 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.17.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "013aada064e4fa619a6301e3224e1920",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"kasus-4-operasi-group-dan-wawasan\">Kasus 4 - Operasi Group dan Wawasan</h1>\n<ul>\n<li>Data Engineering</li>\n<li>Ludy Hasby Aulia : 2702409305</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "49ee3251ee597b17af5292547c01f693",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"load-library\">Load Library</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "1903954faf09a68d969bb22ca8ca3c15",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "c27318593e12b70bbe3f55b937239666",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"dataset\">Dataset</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "6496da004f757d667ae901bcfab98e92",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "0a023b9ebe8a4ed318912f45dba5ddd1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "c15b977dd99332ca8623fbdfb86827e8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='a2fbab67-f31e-54a1-778b-637fc20dd4ff'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0001&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;amount&#92;&quot;:739115,&#92;&quot;quantity&#92;&quot;:2,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;Credit Card&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Medan&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-01T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;completed&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0002&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;amount&#92;&quot;:614678,&#92;&quot;quantity&#92;&quot;:4,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Makassar&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-02T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;pending&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0003&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;amount&#92;&quot;:335855,&#92;&quot;quantity&#92;&quot;:6,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;COD&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Bandung&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-03T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;completed&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0004&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;amount&#92;&quot;:141658,&#92;&quot;quantity&#92;&quot;:7,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;E-Wallet&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Jakarta&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-04T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;cancelled&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0005&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Beauty&#92;&quot;,&#92;&quot;amount&#92;&quot;:107993,&#92;&quot;quantity&#92;&quot;:5,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;COD&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Medan&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-05T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;completed&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0006&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Beauty&#92;&quot;,&#92;&quot;amount&#92;&quot;:255768,&#92;&quot;quantity&#92;&quot;:9,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;Credit Card&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Medan&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-06T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;cancelled&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0007&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Fashion&#92;&quot;,&#92;&quot;amount&#92;&quot;:208285,&#92;&quot;quantity&#92;&quot;:3,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;COD&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Surabaya&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-07T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;completed&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0008&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Electronics&#92;&quot;,&#92;&quot;amount&#92;&quot;:821148,&#92;&quot;quantity&#92;&quot;:1,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;COD&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Makassar&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-08T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;completed&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0009&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;amount&#92;&quot;:501000,&#92;&quot;quantity&#92;&quot;:4,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;E-Wallet&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Surabaya&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-09T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;cancelled&#92;&quot;},{&#92;&quot;transaction_id&#92;&quot;:&#92;&quot;T0010&#92;&quot;,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Fashion&#92;&quot;,&#92;&quot;amount&#92;&quot;:843853,&#92;&quot;quantity&#92;&quot;:9,&#92;&quot;payment_method&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;city&#92;&quot;:&#92;&quot;Surabaya&#92;&quot;,&#92;&quot;date&#92;&quot;:&#92;&quot;2025-01-10T00:00:00.000&#92;&quot;,&#92;&quot;status&#92;&quot;:&#92;&quot;completed&#92;&quot;}]&quot;' data-total-rows='1000' data-total-columns='9' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;transaction_id&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;amount&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;quantity&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;payment_method&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;city&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;date&quot;,[&quot;datetime&quot;,&quot;datetime64[ns]&quot;]],[&quot;status&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "15db0b1697d65999fb47938a7ca1b81c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"group-dasar-dan-wawasan\">Group Dasar dan Wawasan</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "7037425e7a33bc2d93af71a9d090e170",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"penjualan-setiap-penjual\">Penjualan setiap Penjual</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "3f1668bde2c06c66477fe2db79a76047",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Kclp-0' random-id='438857e8-dbff-c063-71e5-892602782b6a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;amount&#92;&quot;:112534152},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;amount&#92;&quot;:109123984},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;amount&#92;&quot;:104645249},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;amount&#92;&quot;:98759880},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;amount&#92;&quot;:94315593}]&quot;' data-total-rows='5' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;amount&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "2b7003d9224f8e94eaf8b148e2ef6c60",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"persentase-setiap-penjual-terhadap-total\">Persentase setiap Penjual terhadap total</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "d6a389e44fb1027908bbb72288766db0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "c1b4281196d8026ac30dcf4aaef3362b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='nWHF-0' random-id='93f54010-8032-7a2a-a7f7-dfae3db0f0a2'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;amount&#92;&quot;:112534152,&#92;&quot;percentageP&#92;&quot;:0.2166706447},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;amount&#92;&quot;:109123984,&#92;&quot;percentageP&#92;&quot;:0.2101047864},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;amount&#92;&quot;:104645249,&#92;&quot;percentageP&#92;&quot;:0.2014815339},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;amount&#92;&quot;:98759880,&#92;&quot;percentageP&#92;&quot;:0.190149981},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;amount&#92;&quot;:94315593,&#92;&quot;percentageP&#92;&quot;:0.181593054}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;amount&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;percentageP&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "66a8d20b4c05c950b2f5077e3e19ebda",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"rata-rata-jumlah-transaksi-per-kategori\">Rata-rata Jumlah Transaksi per Kategori</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "1c6d687f4ed041d8c168fef8d9f5f2ab",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ZHCJ-0' random-id='58ef7dc2-9884-acce-64db-7a5b17346de0'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;category&#92;&quot;:&#92;&quot;Fashion&#92;&quot;,&#92;&quot;quantity&#92;&quot;:5.0805687204},{&#92;&quot;category&#92;&quot;:&#92;&quot;Beauty&#92;&quot;,&#92;&quot;quantity&#92;&quot;:5.0585365854},{&#92;&quot;category&#92;&quot;:&#92;&quot;Electronics&#92;&quot;,&#92;&quot;quantity&#92;&quot;:5.0243902439},{&#92;&quot;category&#92;&quot;:&#92;&quot;Food&#92;&quot;,&#92;&quot;quantity&#92;&quot;:4.9100529101},{&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;quantity&#92;&quot;:4.8210526316}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;quantity&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;category&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "680e27d189c728982749691638682055",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"group-multilevel\">Group Multilevel</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "ab756dedf600100b002ee94f126a9b71",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"total-pendapatan-berdasar-seller_id-dan-category\">Total Pendapatan berdasar seller_id dan category</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "b1039690d1a90b3ee8396d700ad9ab4c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='TqIu-0' random-id='6f5efc99-7b99-0ae0-2d1c-a1cb906622dd'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:2,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Fashion&#92;&quot;,&#92;&quot;amount&#92;&quot;:27767200},{&#92;&quot;&#92;&quot;:17,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Fashion&#92;&quot;,&#92;&quot;amount&#92;&quot;:26743165},{&#92;&quot;&#92;&quot;:16,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Electronics&#92;&quot;,&#92;&quot;amount&#92;&quot;:25590012},{&#92;&quot;&#92;&quot;:0,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Beauty&#92;&quot;,&#92;&quot;amount&#92;&quot;:25433998},{&#92;&quot;&#92;&quot;:21,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Electronics&#92;&quot;,&#92;&quot;amount&#92;&quot;:24727542},{&#92;&quot;&#92;&quot;:12,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Fashion&#92;&quot;,&#92;&quot;amount&#92;&quot;:24487160},{&#92;&quot;&#92;&quot;:5,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Beauty&#92;&quot;,&#92;&quot;amount&#92;&quot;:22785500},{&#92;&quot;&#92;&quot;:15,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Beauty&#92;&quot;,&#92;&quot;amount&#92;&quot;:22424454},{&#92;&quot;&#92;&quot;:14,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;amount&#92;&quot;:21896897},{&#92;&quot;&#92;&quot;:24,&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;category&#92;&quot;:&#92;&quot;Home&#92;&quot;,&#92;&quot;amount&#92;&quot;:20480749}]&quot;' data-total-rows='25' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;amount&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "0bd7339ab0833ee95b8bc58aa27a58b2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"pivot-tabel-seller-category\">Pivot Tabel Seller - Category</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "e701f39e2df2c3bbaa2094be6fda8f42",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='DnEU-0' random-id='9bf76883-b7f8-3504-14e1-deb892ec7bbb'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;Beauty&#92;&quot;:25433998,&#92;&quot;Electronics&#92;&quot;:20014109,&#92;&quot;Fashion&#92;&quot;:27767200,&#92;&quot;Food&#92;&quot;:16485122,&#92;&quot;Home&#92;&quot;:19423555},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;Beauty&#92;&quot;:22785500,&#92;&quot;Electronics&#92;&quot;:18792181,&#92;&quot;Fashion&#92;&quot;:18346254,&#92;&quot;Food&#92;&quot;:18084960,&#92;&quot;Home&#92;&quot;:16306698},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;Beauty&#92;&quot;:20002758,&#92;&quot;Electronics&#92;&quot;:15990413,&#92;&quot;Fashion&#92;&quot;:24487160,&#92;&quot;Food&#92;&quot;:16382652,&#92;&quot;Home&#92;&quot;:21896897},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;Beauty&#92;&quot;:22424454,&#92;&quot;Electronics&#92;&quot;:25590012,&#92;&quot;Fashion&#92;&quot;:26743165,&#92;&quot;Food&#92;&quot;:20388389,&#92;&quot;Home&#92;&quot;:17388132},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;Beauty&#92;&quot;:19666423,&#92;&quot;Electronics&#92;&quot;:24727542,&#92;&quot;Fashion&#92;&quot;:19549784,&#92;&quot;Food&#92;&quot;:20220751,&#92;&quot;Home&#92;&quot;:20480749}]&quot;' data-total-rows='5' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;Beauty&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;Electronics&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;Fashion&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;Food&quot;,[&quot;integer&quot;,&quot;int32&quot;]],[&quot;Home&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "0efb2b35e513769ad5758e6a6223567c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"kategori-terbaik-setiap-seller\">Kategori terbaik setiap seller</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "145259f9eeaeae369e62ae9434c11a6b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "   seller_id     category    amount\n2       S001      Fashion  27767200\n17      S004      Fashion  26743165\n21      S005  Electronics  24727542\n12      S003      Fashion  24487160\n5       S002       Beauty  22785500\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ygRH",
+      "code_hash": "76fb161fd0a399776e9247c58832b8b5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"agregasi-kustom\">Agregasi Kustom</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "tTKk",
+      "code_hash": "83a8e99b88b062d70bb169eb74a65ade",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "WMhK",
+      "code_hash": "9ca6debf0eb57348b7ddf5a301f1e5e2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RYXa",
+      "code_hash": "8b3503d79e1ba5c0ecf9fe8d3557e4b0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "IFqx",
+      "code_hash": "437d91e50d4a3ce7c4fd8a5843f296e3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OrXQ",
+      "code_hash": "a95d70285d71efd2be8a7988616a467d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='OrXQ-0' random-id='6449bdb7-a834-bdf1-0137-2a43ce3edb02'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:210,&#92;&quot;total_pendapatan_complete&#92;&quot;:75773678,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9520547945,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6952380952,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:65167186,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9632352941,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7157894737,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Credit Card&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:71012213,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9574468085,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7421052632,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;E-Wallet&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:206,&#92;&quot;total_pendapatan_complete&#92;&quot;:76854937,&#92;&quot;mean_transaksi_complete&#92;&quot;:5.1631205674,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6844660194,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;COD&#92;&quot;},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:204,&#92;&quot;total_pendapatan_complete&#92;&quot;:73729304,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.7112676056,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6960784314,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;}]&quot;' data-total-rows='5' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;jumlah_transaksi&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_pendapatan_complete&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;mean_transaksi_complete&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;tingkat_penyelesaian&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;metode_bayar_umum&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PkkX",
+      "code_hash": "4cbfbe1ba4c30afc70edb967234c7099",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PkkX-0' random-id='c8e95546-9e4d-e60e-00e7-490426d09317'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:210,&#92;&quot;total_pendapatan_complete&#92;&quot;:75773678,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9520547945,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6952380952,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:2},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:65167186,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9632352941,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7157894737,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Credit Card&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:5},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:71012213,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9574468085,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7421052632,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;E-Wallet&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:4},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:206,&#92;&quot;total_pendapatan_complete&#92;&quot;:76854937,&#92;&quot;mean_transaksi_complete&#92;&quot;:5.1631205674,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6844660194,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;COD&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:1},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:204,&#92;&quot;total_pendapatan_complete&#92;&quot;:73729304,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.7112676056,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6960784314,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:3}]&quot;' data-total-rows='5' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;jumlah_transaksi&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_pendapatan_complete&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;mean_transaksi_complete&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;tingkat_penyelesaian&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;metode_bayar_umum&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;rank_pendapatan&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "wASY",
+      "code_hash": "5ed11d25b76c7018b316cc5db3775376",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='wASY-0' random-id='1e03ee3b-df00-0f25-5af4-36bed1cf06b1'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:206,&#92;&quot;total_pendapatan_complete&#92;&quot;:76854937,&#92;&quot;mean_transaksi_complete&#92;&quot;:5.1631205674,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6844660194,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;COD&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:1},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:210,&#92;&quot;total_pendapatan_complete&#92;&quot;:75773678,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9520547945,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6952380952,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:2},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:204,&#92;&quot;total_pendapatan_complete&#92;&quot;:73729304,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.7112676056,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6960784314,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:3},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:71012213,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9574468085,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7421052632,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;E-Wallet&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:4},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:65167186,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9632352941,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7157894737,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Credit Card&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:5}]&quot;' data-total-rows='5' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;jumlah_transaksi&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_pendapatan_complete&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;mean_transaksi_complete&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;tingkat_penyelesaian&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;metode_bayar_umum&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;rank_pendapatan&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BxNC",
+      "code_hash": "58a9260896fb33e7222184429eb2070c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='BxNC-0' random-id='536be367-64a7-4070-d68d-132eddfee937'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S004&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:206,&#92;&quot;total_pendapatan_complete&#92;&quot;:76854937,&#92;&quot;mean_transaksi_complete&#92;&quot;:5.1631205674,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6844660194,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;COD&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:1},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S001&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:210,&#92;&quot;total_pendapatan_complete&#92;&quot;:75773678,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9520547945,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6952380952,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:2},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S005&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:204,&#92;&quot;total_pendapatan_complete&#92;&quot;:73729304,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.7112676056,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.6960784314,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Bank Transfer&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:3},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S002&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:65167186,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9632352941,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7157894737,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;Credit Card&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:5},{&#92;&quot;seller_id&#92;&quot;:&#92;&quot;S003&#92;&quot;,&#92;&quot;jumlah_transaksi&#92;&quot;:190,&#92;&quot;total_pendapatan_complete&#92;&quot;:71012213,&#92;&quot;mean_transaksi_complete&#92;&quot;:4.9574468085,&#92;&quot;tingkat_penyelesaian&#92;&quot;:0.7421052632,&#92;&quot;metode_bayar_umum&#92;&quot;:&#92;&quot;E-Wallet&#92;&quot;,&#92;&quot;rank_pendapatan&#92;&quot;:4}]&quot;' data-total-rows='5' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;jumlah_transaksi&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_pendapatan_complete&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;mean_transaksi_complete&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;tingkat_penyelesaian&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;metode_bayar_umum&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;rank_pendapatan&quot;,[&quot;integer&quot;,&quot;int32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;seller_id&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
